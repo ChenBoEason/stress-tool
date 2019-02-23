@@ -12,7 +12,7 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author Eason@bianque
+ * @author Eason
  * @date 2019/02/18
  **/
 public class StressThreadWorker implements Runnable {
