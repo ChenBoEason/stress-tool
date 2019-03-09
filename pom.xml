@@ -6,11 +6,11 @@
 
   <groupId>com.eason</groupId>
   <artifactId>stress-tool</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
 
   <name>stress-tool</name>
 
-  <description>This is bianque stress test tools</description>
+  <description>This is a stress test tools</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
