@@ -1,4 +1,4 @@
-package com.eason.stress.core.util;
+package com.eason.stress.core.utils;
 
 import java.util.Iterator;
 import java.util.List;

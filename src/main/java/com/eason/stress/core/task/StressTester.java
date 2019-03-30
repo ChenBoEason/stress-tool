@@ -4,7 +4,7 @@ import com.eason.stress.core.StressContext;
 import com.eason.stress.core.StressThreadWorker;
 import com.eason.stress.core.result.SimpleResultFormater;
 import com.eason.stress.core.result.StressResult;
-import com.eason.stress.core.util.StatisticsUtils;
+import com.eason.stress.core.utils.StatisticsUtils;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

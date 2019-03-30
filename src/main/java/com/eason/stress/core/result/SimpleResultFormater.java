@@ -1,6 +1,6 @@
 package com.eason.stress.core.result;
 
-import com.eason.stress.core.util.StatisticsUtils;
+import com.eason.stress.core.utils.StatisticsUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
