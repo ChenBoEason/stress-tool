@@ -1,6 +1,6 @@
-package com.eason.demo;
+package com.eason.stress.example;
 
-import com.eason.stress.http.HttpClient;
+import com.eason.stress.core.http.HttpClient;
 import com.eason.stress.core.StressStore;
 import com.eason.stress.core.task.StressTask;
 

@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stress-tool" />
+        <module name="stress-example" />
+        <module name="stress-core" />
       </profile>
     </annotationProcessing>
   </component>

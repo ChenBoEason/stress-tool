@@ -1,4 +1,4 @@
-package com.eason.stress.http;
+package com.eason.stress.core.http;
 
 /**
  * httpclient

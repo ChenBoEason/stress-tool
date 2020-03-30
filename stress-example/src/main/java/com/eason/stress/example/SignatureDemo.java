@@ -1,4 +1,4 @@
-package com.eason.demo;
+package com.eason.stress.example;
 
 import com.eason.stress.core.utils.StressSignature;
 
