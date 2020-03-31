@@ -11,8 +11,17 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @date 2019/02/18
  **/
 public class StressContext {
+    /**
+     * 每个线程执行多少次
+     */
     private int everyThreadCount;
+    /**
+     *  线程栅栏
+     */
     private CyclicBarrier threadStartBarrier;
+    /**
+     *
+     */
     private CountDownLatch threadEndLatch;
     private AtomicInteger failedCounter;
     private StressTask stressTask;

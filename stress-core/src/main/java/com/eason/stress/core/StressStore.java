@@ -5,6 +5,7 @@ import com.eason.stress.core.result.StressResult;
 import com.eason.stress.core.result.StressResultFormater;
 import com.eason.stress.core.task.StressTask;
 import com.eason.stress.core.task.StressTester;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.StringWriter;
 
@@ -12,6 +13,7 @@ import java.io.StringWriter;
  * @author Eason
  * @date 2019/02/18
  **/
+@Slf4j
 public class StressStore {
 
     private static StressTester stressTester = new StressTester();
@@ -31,8 +33,7 @@ public class StressStore {
 
     public static void testAndPrint(int concurrencyLevel, int totalRequests, StressTask stressTask, String testName) {
         StressResult stressResult = test(concurrencyLevel, totalRequests, stressTask);
-        String str = format(stressResult);
-        System.out.println(str);
+        log.info("test result {}", format(stressResult));
     }
 
     public static String format(StressResult stressResult) {
