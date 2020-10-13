@@ -21,7 +21,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <dubbo.version>2.7.6</dubbo.version>
         <dubbo.curator.version>4.2.0</dubbo.curator.version>
-        <zookeeper.version>3.4.9</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <boot.nacos.version>0.2.7</boot.nacos.version>
     </properties>
 
